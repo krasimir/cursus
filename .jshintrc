@@ -1,0 +1,11 @@
+{
+  "undef": true,
+  "unused": true,
+  "node": true,
+  "browser": true,
+  "devel": true,
+  "evil": true,
+  "-W008": true,
+  "-W065": true,
+  "maxlen": 100
+}

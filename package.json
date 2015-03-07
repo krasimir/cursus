@@ -1,0 +1,32 @@
+{
+  "name": "cursur",
+  "version": "0.0.1",
+  "description": "JavaScript tool that tracks the function calls",
+  "main": "./lib/index.js",
+  "author": {
+    "name": "Krasimir Tsonev",
+    "email": "info@krasimirtsonev.com",
+    "url": "http://krasimirtsonev.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "mocha": "2.0.1",
+    "jshint": "2.5.10"
+  },
+  "keywords": [
+    "testing",
+    "client-side",
+    "front-end",
+    "dom"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krasimir/atomus.git"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --ui tdd --recursive ./test/*.spec.js && (./node_modules/jshint/bin/jshint lib/ ; echo)"
+  }
+}
